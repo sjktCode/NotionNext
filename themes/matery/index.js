@@ -117,6 +117,16 @@ const LayoutIndex = (props) => {
 }
 
 /**
+ * 博客页面
+ * 首页就是一个文章列表，但是嵌入了Hero大图和公告
+ * @param {*} props
+ * @returns
+ */
+const LayoutBlog = (props) => {
+  return <LayoutPostList {...props} />
+}
+
+/**
  * 博客列表
  * @param {*} props
  * @returns
@@ -359,6 +369,7 @@ const LayoutTagIndex = props => {
 export {
   CONFIG as THEME_CONFIG,
   LayoutIndex,
+  LayoutBlog,
   LayoutPostList,
   LayoutSearch,
   LayoutArchive,

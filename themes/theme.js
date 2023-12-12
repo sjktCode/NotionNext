@@ -56,6 +56,8 @@ export const getLayoutNameByPath = (path) => {
   switch (path) {
     case '/':
       return 'LayoutIndex'
+    case '/blog':
+      return 'LayoutBlog'
     case '/archive':
       return 'LayoutArchive'
     case '/page/[page]':
