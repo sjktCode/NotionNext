@@ -123,7 +123,7 @@ const LayoutIndex = (props) => {
  * @returns
  */
 const LayoutBlog = (props) => {
-  return <LayoutPostList {...props} />
+  return <LayoutPostList {...props}/>
 }
 
 /**
